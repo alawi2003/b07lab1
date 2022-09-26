@@ -57,9 +57,9 @@ public class Polynomial {
         
         a = evaluate(input);
         
-        if(a == 0) {
-            return true;
+        if(a != 0) {
+            return false;
         }
-        return false;
+        return true;
     }
 }
